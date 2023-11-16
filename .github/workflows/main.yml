@@ -38,7 +38,7 @@ jobs:
         run: |
           ls -la 
           ipfs swarm peers
-          ipfs add agathe.war > ipfs_key.txt
+          ipfs add anthony.war > ipfs_key.txt
         shell: alpine.sh --root {0}
       - name: Notification Discord
         env:
